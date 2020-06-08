@@ -1,0 +1,76 @@
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:hover { text-decoration: none }
+a:focus { outline: 0 solid; text-decoration: none}
+img {
+    max-width: 100%;
+    height: auto;
+}
+input:focus, button:focus, textarea:focus, a:focus {outline: none}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+p:last-child {
+    margin-bottom: 0
+}
+
+/* common typoghrapy style */
+html{
+    scroll-behavior: smooth;
+}
+
+/*============================= navigation section style==================================== */
+.navigation {
+    opacity: 0.6;
+    border-bottom: 5px solid #119AF8;
+}
+/*============================= banner section style==================================== */
+#banner{
+    background: url('./assets/img/1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    min-height: 600px;
+}
+
+/*============================= form section style==================================== */
+#form-section{
+   
+}
+
+/* ======================author style :end==================================================== */
+img.card-img-top {
+    margin-top: -60px;
+    margin-left: 67px;
+}
+.card-hover{
+    transition: 0.3s;
+}
+.card-hover:hover {
+    background:#3292A6;
+   
+}
+.social-media a {
+    font-size: 20px;
+    padding: 15px;
+}
+i.fab:hover {
+    color: white;
+}
